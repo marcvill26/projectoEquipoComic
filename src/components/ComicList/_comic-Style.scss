@@ -1,0 +1,11 @@
+.comic-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: wrap;
+
+    &__image{
+        width: 250px;
+        height: 350px;
+    }
+}

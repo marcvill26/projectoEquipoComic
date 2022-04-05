@@ -1,6 +1,6 @@
-import react, {useState, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-
+import CardComicList from "../CardcomicList/CardcomicList";
 
 const ComicList = () => {
   const [comicslist, setComicList] = useState([]);
@@ -20,7 +20,7 @@ const ComicList = () => {
      {comicslist.map((Comics) => {
         return (
 
-          <CardcomicList
+          <CardComicList
             key={Comics.id}
             id={Comics.id}
             hero={Comics.hero}
