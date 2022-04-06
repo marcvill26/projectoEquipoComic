@@ -4,7 +4,7 @@
         "nameHero":"Peter Parker",
         "writer": "Brian Bendis",
         "year": 2000,
-        "description": "Spider-Man has spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is also extremely agile and has amazing reflexes.",
+        "description": "Spider-Man has spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is amaizing.",
        " penciler":"Mark Gagley",
         "image":"https://www.zonanegativa.com/imagenes/2016/03/Ultimate-Spider-Man-5-cover.jpg",
         "isactive":false,
@@ -14,10 +14,10 @@
     },
     {
         "hero": "Daredevil",
-        "nameHero":"Matthew Murdock",
+        "nameHero":"Matt Murdock",
         "writer": "Chip Zdarsky",
         "year": 2019,
-        "description": "Daredevils origins come from an accident he had in his childhood which gave him special abilities. Irish-American neighborhood of Hells Kitchen.",
+        "description": "Daredevils origins come from an accident he had in his childhood which gave him special abilities.neighborhood of Hells Kitchen.",
         "penciler":"Marco Checchetto",
         "image":"https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/104812.jpg",
         "isactive":false,
@@ -27,16 +27,45 @@
     },
 
     {
-       " hero": "Iron Man",
+        "hero": "Iron Man",
         "nameHero":"Tony Stark",
         "writer": "Christopher Cantwell",
         "year": 2020,
-        "description": "BIG IRON! Tony Stark is looking to restart his engine. He decides hes going back to basics, putting away his high-tech toys and high-profile image so he can get his hands dirty again.",
+        "description": "BIG IRON! Tony Stark is looking to restart his engine. He decides hes going back to basics, putting away his high-tech.",
         "penciler":"C Cafu",
         "image":"https://starsmydestination.files.wordpress.com/2021/01/iron-man-01-portada-alex-ross-starsmydestination.jpg",
         "isactive":false,
         "colletion":"Iron man 2020",
         "issues":17,
-        "id":2
+        "id":3
+    },
+
+    {
+         "hero": "Moon Knight",
+         "nameHero":"Marc Spector",
+         "writer": "Warren Ellis",
+         "year": 2014,
+         "description": "Marc Spector is Moon Knight!...Or is he? It's hard to tell these days, especially when New York's wildest vigilante protects the street.",
+         "penciler":"Declan Shalvey",
+         "image":"https://i.annihil.us/u/prod/marvel/i/mg/2/80/530e4d1b02751/clean.jpg",
+         "isactive":false,
+         "colletion":"Moon Knight 2014-2015",
+         "issues":1,
+         "id":4
+     },
+
+     {
+        "hero": "Wolverine",
+        "nameHero":"Logan",
+        "writer": "Benjamin Percy",
+        "year": 2020,
+        "description": "THE BEST IS BACK! Wolverine been through a lot. He’s been a loner. He’s been a killer.",
+        "penciler":"Viktor Bogdanovic",
+        "image":"https://i.annihil.us/u/prod/marvel/i/mg/a/20/60917f7b97bfc/clean.jpg",
+        "isactive":false,
+        "colletion":"Moon Knight 2014-2015",
+        "issues":1,
+        "id":5
     }
+
 ]
