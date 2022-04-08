@@ -4,7 +4,7 @@ export default function CardcomicList({ ...rest }) {
   const { hero, nameHero, writer, year, image, description, collection } = rest;
   return (
     
-<div className="card">
+    
   <div className= "comic-card">
     <div className= "comic-card__info">
         <div className="comic-card__hero"><span>hero:</span> {hero}</div>
@@ -20,7 +20,7 @@ export default function CardcomicList({ ...rest }) {
       <p>year: {year}</p>
     </div>
     </div>
-</div>
+
    
 
     // <div class="comic-card">
