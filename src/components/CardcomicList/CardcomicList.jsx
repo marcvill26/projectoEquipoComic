@@ -4,8 +4,9 @@ export default function CardcomicList({ ...rest }) {
   const { hero, nameHero, writer, year, image, description, collection } = rest;
   return (
     
-    
-  <div className= "comic-card">
+  
+     
+      <div className= "comic-card">
     <div className= "comic-card__info">
         <div className="comic-card__hero"><span>hero:</span> {hero}</div>
         <div className="comic-card__name"><span>name:</span> {nameHero}</div>
@@ -19,7 +20,11 @@ export default function CardcomicList({ ...rest }) {
       <p>writer: {writer}</p>
       <p>year: {year}</p>
     </div>
-    </div>
+
+
+      </div>
+    
+  
 
    
 

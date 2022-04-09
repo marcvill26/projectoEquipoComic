@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+import { render } from 'react-dom';
+
+// import your fontawesome library
+
+
+render(<App />, document.getElementById('root'));
 
 ReactDOM.render(
   <React.StrictMode>
