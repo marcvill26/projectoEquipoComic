@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {link} from '../../'
 export default function Comicbar() {
   return (
    
