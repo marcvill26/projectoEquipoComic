@@ -5,7 +5,7 @@ export default function Carrousels({...rest}) {
   return (
     <div className="slider">
       <h1 className="text">slider images</h1>
-      <img src={images} alt="slider images"></img>
+      <img src={images} alt="slider images" className="slider__image"></img>
     </div>
   )
 }

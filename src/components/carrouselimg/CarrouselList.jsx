@@ -11,13 +11,13 @@ const Carrousellist = () => {
     },[])
     return (
         <div className= "sliderList">
-       {CarrouselList.map((slider) => {
+       {CarrouselList.map((sliderImg) => {
         return (
 
           <Carrousels
-            key={slider.id}
-            id={slider.id}
-           images={slider.images}
+            key={sliderImg.id}
+            id={sliderImg.id}
+           images={sliderImg.images}
 
           />
         )
