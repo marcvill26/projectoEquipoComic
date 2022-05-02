@@ -6,7 +6,7 @@ export default function Comicbar() {
       <nav className="menu">
            <li href="#" className="menu__link">home</li>
            <Link to='/Comiclist' className="menu__link menu__link--marvel">marvel comics</Link>
-           <li href="#" className="menu__link menu__link--dc">dc comics</li>
+           <Link to='/DcComics' className="menu__link menu__link--dc">dc comics</Link>
            <Link to='/Register'className="menu__link">register</Link>
            <li href="#" className="menu__link">novedades</li>
            <li href="#" className="menu__link">shop</li>
