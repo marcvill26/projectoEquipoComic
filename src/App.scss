@@ -2,8 +2,12 @@
 @import './components/Comicbar/Comicbar.scss';
 @import './components/carrouselimg/carrousel.scss';
 @import './pages/Register/RegisterStyle.scss';
-
+@import './components/FooterMarvel/FooterMarvel.scss';
 .App {
-
+  
   font-family: 'Righteous', cursive;
+}
+body{
+  margin: 0;
+  padding: 0;
 }
