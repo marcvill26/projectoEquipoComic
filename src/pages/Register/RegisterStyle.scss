@@ -1,11 +1,23 @@
-
-.register{
+body{
+    background-color:#e63946;
+}
+.Form{
     display:flex;
     justify-content:center;
+    height:800px;
+    align-items:center;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.register{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
     box-shadow: 0 0 6px rgba(237, 245, 83, 0.8);
    background-color:#343a40;
-   width:250px;
-   height: 280px;
+   width:400px;
+   height: 500px;
    margin-bottom: 10px;
    border-radius:8px;
     &__label{
@@ -15,13 +27,13 @@
         font-family: 'Righteous', cursive;
     }
     &__form{
-        padding:10px;
+        padding:20px;
         display:flex;
         flex-direction:column;
      
     }
     &__button{
-        margin-top:25px;
+        margin-top:80px;
         margin-left: 20px;
         width:80%;
        border:none;

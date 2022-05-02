@@ -1,6 +1,6 @@
 import React from 'react'
 import {useFormik} from "formik";
-
+import { Link } from "react-router-dom";
 export default function Register() {
     const validate= (values) =>{
         const errors = {};
@@ -34,7 +34,7 @@ export default function Register() {
         },
     });
   return (
-    
+    <div className='Form'>
     <div className="register">
         
         <form onsumit={formik.handleSubmit} className="register__form">
@@ -89,6 +89,7 @@ export default function Register() {
                 ):null}
             <button className="register__button">Register</button>
         </form>
+    </div>
     </div>
   )
 }
